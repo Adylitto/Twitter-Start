@@ -120,8 +120,8 @@ const Home = () => {
               value="GM World"
               type="text"
               onChange={(e) => setTweet(e.target.value)}
-              width="95%"
-            ></TextArea>
+              width="95%">
+            </TextArea>
             {selectedFile && (
               <img src={selectedFile} className="tweetImg"></img>
             )}
