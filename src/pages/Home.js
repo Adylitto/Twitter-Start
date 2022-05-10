@@ -32,7 +32,7 @@ const Home = () => {
     }
 
     let options = {
-      contractAddress: "0x8E452D8573e2B1e8341D3f4aCC07939247cf99c6",
+      contractAddress: "0x1f7ab77d204C3aFD6D24E8F03B18f135f297a47c",
       functionName: "addTweet",
       abi: [{
         "inputs": [

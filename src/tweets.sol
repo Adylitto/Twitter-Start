@@ -32,7 +32,7 @@ contract tweets {
         string memory tweetTxt,
         string memory tweetImg
         ) public payable {
-            require(msg.value == (1 ether), "Please submit 1 Matic");
+            require(msg.value == (0.1 ether), "Please submit 1 Matic");
             tweet storage newTweet = Tweets[counter];
             newTweet.tweetTxt = tweetTxt;
             newTweet.tweetImg = tweetImg;
